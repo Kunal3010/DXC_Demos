@@ -17,6 +17,7 @@ Console.WriteLine("Your Total Score is " + total);
 int percentage = total/3;
 Console.WriteLine("Your Total Average Score is " + percentage);
 String Grade;
+
 if(percentage>=90 && percentage<=100)
 {
     Grade = "A";
