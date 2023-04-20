@@ -2,38 +2,33 @@
 int a = Convert.ToInt16(Console.ReadLine());
 Console.WriteLine("Enter Second Number: ");
 int b = Convert.ToInt16(Console.ReadLine());
-Console.WriteLine("Enter the Operator Number :");
-Console.WriteLine("1 - Addition");
-Console.WriteLine("2 - Subtraction");
-Console.WriteLine("3 - Multiplication");
-Console.WriteLine("4 - Division");
-Console.WriteLine("5 - Modulus");
+Console.WriteLine("Enter the Operator :");
 
-int ch = Convert.ToInt16(Console.ReadLine());
+char ch = Convert.ToChar(Console.ReadLine());
 
 switch(ch)
 {
-    case 1 :
+    case '+' :
     {
        Console.WriteLine("Result is "+ (a+b));
        break; 
     }
-    case 2 :
+    case '-' :
     {
        Console.WriteLine("Result is "+ (a-b));
        break; 
     }
-    case 3 :
+    case '*' :
     {
        Console.WriteLine("Result is "+ (a*b));
        break; 
     }
-    case 4 :
+    case '/' :
     {
        Console.WriteLine("Result is "+ (a/b));
        break; 
     }
-    case 5 :
+    case '%' :
     {
        Console.WriteLine("Result is "+ (a%b));
        break; 
