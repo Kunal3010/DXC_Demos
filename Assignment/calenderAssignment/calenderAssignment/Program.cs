@@ -25,7 +25,7 @@ switch (month)
         }
     case 2:
         {
-            if((year%4==0) && (year%100!=0))
+            if((year%4==0) && (year%100!=0) || (year%400==0))
             {
                 for (int i = 0; i < day; i++)
                 {
