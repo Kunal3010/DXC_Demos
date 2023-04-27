@@ -1,0 +1,74 @@
+20/04/2023
+
+DHIRAJ SIR NOTES: https://github.com/Dhiraj-Kumar/DXC_Demos
+
+##Program to see Odd/Even
+
+int num;
+Console.WriteLine("Write a Number ");
+num = Convert.ToInt16(Console.ReadLine());
+if(num%2==0)
+{
+    Console.WriteLine("Number is Even");
+}
+else{
+    Console.WriteLine("Number is Odd");
+}
+
+## Program to see the greatest of two number
+
+int num1, num2;
+Console.WriteLine("Write First Number ");
+num1 = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Write Second Number ");
+num2 = Convert.ToInt16(Console.ReadLine());
+if(num1>num2)
+{
+    Console.WriteLine("First number is Greater");
+}
+else if(num2>num1){
+    Console.WriteLine("Second number is Greater");
+}
+else
+{
+    Console.WriteLine("Both are Equal");
+}
+
+## Program to check eligblity
+
+//Age>=18 and qualificaton>=10
+Console.WriteLine("Enter your Age");
+int age = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Enter your Qualification");
+int qual = Convert.ToInt16(Console.ReadLine());
+if(age>=18 && qual>=10)
+{
+    Console.WriteLine("You are eligible");
+}
+else
+{
+    Console.WriteLine("You are not eligible");
+}
+
+--------------------------------------------------------
+21/04/2023
+
+for (int i = 0; i <10; i++)
+{
+    int c = i * 10;
+    int f = ((int)((c * 1.8) + 32));
+    Console.WriteLine("Sr.No   Temperature(Celcius)   Temperature(Fahrenheit)");
+    Console.WriteLine(i+"        "+c + "                     " + f);
+}
+
+            String ch;
+            do
+            {
+                Console.WriteLine("Enter the Temperature in Degree Celsius: ");
+                int temp = Convert.ToInt16(Console.ReadLine());
+
+                double f = temp * 1.8 + 32;
+                Console.WriteLine("Temperature(Celsius): " + temp + " Temperature(Fahrenheit): " + f);
+                Console.WriteLine("Do You Wish to Continue(y/n)?");
+                ch = Console.ReadLine();
+            } while (ch =="y");
