@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grahminBank", "grahminBank\grahminBank.csproj", "{F3DBE16F-1715-4E3C-8F2D-8D1505354707}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3DBE16F-1715-4E3C-8F2D-8D1505354707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DBE16F-1715-4E3C-8F2D-8D1505354707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DBE16F-1715-4E3C-8F2D-8D1505354707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DBE16F-1715-4E3C-8F2D-8D1505354707}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0BFB42-6D0B-437A-A843-0C62B1F03E06}
+	EndGlobalSection
+EndGlobal
